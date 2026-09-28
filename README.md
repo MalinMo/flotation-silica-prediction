@@ -1,6 +1,3 @@
-# flotation-silica-prediction
-Gruppinlämningsuppgift
-
 # Flotation Silica Prediction
 
 Prognos av kiselhalt (% Silica Concentrate) i järnmalmskoncentrat från en flotationsprocess.
@@ -37,7 +34,7 @@ Processingenjörer och operatörer i en flotationsanläggning.
 - `% Iron Concentrate` mäts samtidigt som målvariabeln och riskerar att orsaka dataläckage om den används som indata.
 - Filen använder decimalkomma.
 
-Datan versionshanteras inte i repot, se *Kom igång* nedan.
+**Datan ingår inte i repot.** Mappen data/ ignoreras av git (se .gitignore), eftersom filen är stor och finns tillgänglig från originalkällan. Varje gruppmedlem hämtar datan själv med scripts/download_data.py, se Kom igång nedan.
 
 ## Kom igång
 
